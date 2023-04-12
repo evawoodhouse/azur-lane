@@ -1,0 +1,213 @@
+[
+    {
+        "name": "New Jersey",
+        "id": "068",
+        "class": "Iowa",
+        "construction": "06:30:00",
+        "faction": "Eagle Union",
+        "type": "BB",
+        "total_stats": "",
+        "link": "https://azurlane.koumakan.jp/wiki/New_Jersey",
+        "stats": {
+            "lvl": 125,
+            "hp": 9745,
+            "fp": 453,
+            "trp": 0,
+            "avi": 0,
+            "aa": 438,
+            "asw": 0
+        },
+        "rarity": 6,
+        "eq": [{
+            "category": "BB_Guns",
+            "eff": "150%",
+            "list": ["triple_406mm_16_50_mk_7",
+            "twin_457mm_mark_a_prototype",
+            "twin_406mm_sk_c_34_prototype",
+            "triple_406mm_16_45_mk_6",
+            "triple_305mm_sk_c_39_prototype",
+            "triple_406mm_mle_1938_prototype",
+            "triple_410mm_10th_year_type_prototype"]
+        },
+        {
+            "category": "DD_Guns",
+            "eff": "210%",
+            "list":["twin_128mm_45_sk_c_41",
+                    "twin_127mm_5_38_mk_32",
+                    "twin_120mm_qf_mark_xii",
+                    "twin_128mm_sk_c_41"]
+        },
+        {
+            "category": "AA_Guns",
+            "eff": "130%",
+            "list":["twin_40mm_bofors_staag",
+                    "twin_40mm_bofors_hazemeyer",
+                    "quadruple_40mm_bofors_mk_2_mount"]
+        },
+        {
+            "category": "Auxiliary",
+            "eff": "",
+            "list": ["type_1_armor_piercing_shell",
+                    "type_91_armor_piercing_shell",
+                    "sg_radar"]
+        },
+        {
+            "category": "Auxiliary",
+            "eff": "",
+            "list": ["super_heavy_shell",
+                    "high_performance_fire_control_radar",
+                    "nelsons_pennant_of_victory",
+                    "fire_control_radar",
+                    "fire_extinguisher"]
+        }
+        ],
+        "skills": [
+            {
+                "index": "First",
+                "src": "dragons_breath",
+                "title": "Dragon's Breath",
+                "buff": "Main gun base +1/Main gun efficiency +5%",
+                "skill": "When this ship fires its main guns, 50% (100%) chance to fire a special barrage with guaranteed critical hits (barrage damage scales with skill level). Additionally, 10s into the start of the battle, fire this same barrage. The barrage pattern is independent of this ship's position in the main fleet. The barrage inflicts Armor Break to enemies it hits. (Armor-Broken enemies take 5% more damage for 8.0s. This Armor Break stacks with other sources of Armor Break.)"
+            },
+            {
+                "index": "Second",
+                "src": "freedom_through_firepower",
+                "title": "Freedom Through Firepower",
+                "buff": "Auxiliary gun base +2/Main gun efficiency +10%",
+                "skill": "Decrease the spread range of this ship's main guns by 0.5 (5). Whenever ANOTHER fleet in the same sortie engages in battle, if this ship is afloat, fire a special barrage 20s into the start of that battle (damage scales with skill level). At the start of that battle, if that fleet's flagship is an Eagle Union ship, increase the AVI stat of all Eagle Union CVs and CVLs in that fleet by 5% (15%)."
+            },
+            {
+                "index": "Third",
+                "title": "Don'tcha Just Love It?",
+                "src": "dontcha_just_love_it",
+                "buff": "Main gun base +1/Main gun efficiency +15%",
+                "skill": "Increases this ship's FP by 5% (15%) and RLD by 1% (10%). If this ship is sortied with another Eagle Union ship, increase the AA stat by 5% (15%) for all Eagle Union ships in your fleet, decrease their damage taken by 5%, and increase the FP stat by 4% (10%) for all Eagle Union BBs and BCs in your fleet."
+            }
+        ],
+        "story": ["fofiejfiejfijefj jeifj ijfihghughuhegeuijfij ihjejfuewgheugh"]
+    },
+
+    {
+        "name": "Shimakaze",
+        "id": "268",
+        "class": "Shimakaze",
+        "faction": "Sakura Empire",
+        "type": "DD",
+        "total_stats": "",
+        "construction": "00:30:00",
+        "link": "https://azurlane.koumakan.jp/wiki/Shimakaze",
+        "stats": {
+            "lvl": 125,
+            "hp": 2420,
+            "fp": 77,
+            "trp": 609,
+            "avi": 0,
+            "aa": 165,
+            "asw": 213
+        },
+        "rarity": 6,
+        "eq": [
+            {
+            "category": "DD_Guns",
+            "eff": "85%",
+            "list":["single_76mm_3_50_caliber_gun",
+                    "single_120mm_qf_mark_ix",
+                    "twin_114mm_qf_mk_iv",
+                    "twin_100mm_type_98"]
+            },
+            {
+            "category": "Torpedoes",
+            "eff": "170%",
+            "list":["533mm_quintuple_homing_torpedo_mount",
+                    "533mm_quadruple_homing_torpedo_mount",
+                    "610mm_quintuple_torpedo_mount",
+                    "533mm_quintuple_torpedo_mount",
+                    "533mm_quintuple_torpedo_mount_mk_ix",
+                    "610mm_quadruple_torpedo_mount",
+                    "533mm_quadruple_torpedo_mount"]
+            },
+            {
+            "category": "AA_Guns",
+            "eff": "90%",
+            "list": ["triple_25mm_aa_type_96_blast_shield",
+                    "twin_40mm_bofors_type_5",
+                    "twin_37mm_acad_mle_1936",
+                    "quadruple_40mm_bofors_mk_2_mount",
+                    "twin_134mm_aa_qf_mark_i"]
+            },
+            {
+            "category": "Auxiliary",
+            "eff": "",
+            "list": ["repair_toolkit"]
+            },
+            {
+            "category": "Auxiliary",
+            "eff": "",
+            "list": ["repair_toolkit", 
+                    "fire_extinguisher"]
+            }
+        ],
+        "story": ["fofiejfiejfijefj jeifj ijfihghughuhegeuijfij ihjejfuewgheugh"]
+    },
+    {
+        "name": "Neptune",
+        "id": "Plan001",
+        "class": "Neptune",
+        "construction": "Research",
+        "faction": "Royal Navy",
+        "type": "CL",
+        "total_stats": "",
+        "link": "https://azurlane.koumakan.jp/wiki/Neptune",
+        "stats": {
+            "lvl": 125,
+            "hp": 4742,
+            "fp": 175,
+            "trp": 359,
+            "avi": 0,
+            "aa": 371,
+            "asw": 155
+        },
+        "rarity": 5,
+        "eq": [
+            {
+            "category": "CL_Guns",
+            "eff": "150%",
+            "list":["triple_152mm_bl_6_mk_xvv_prototype",
+                    "single_150mm_sk_c_28",
+                    "twin_150mm_tbtsk_c_36"]
+            },
+            {
+            "category": "Torpedoes",
+            "eff": "160%",
+            "list":["533mm_quintuple_homing_torpedo_mount",
+                "533mm_quadruple_homing_torpedo_mount",
+                "610mm_quintuple_torpedo_mount",
+                "533mm_quintuple_torpedo_mount",
+                "533mm_quintuple_torpedo_mount_mk_ix",
+                "610mm_quadruple_torpedo_mount",
+                "533mm_quadruple_torpedo_mount"]
+            },
+            {
+            "category": "AA_Guns",
+            "eff": "100%",
+            "list": ["sextuple_40mm_bofors",
+                    "twin_90mm_aa_model_1939_prototype",
+                    "quadruple_40mm_bofors_mk_2_mount",
+                    "twin_134mm_aa_qf_mark_i"]
+            },
+            {
+            "category": "Auxiliary",
+            "eff": "",
+            "list": ["repair_toolkit"]
+            },
+            {
+            "category": "Auxiliary",
+            "eff": "",
+            "list": ["improved_hydraulic_rudder", 
+                    "hydraulic_steering_gear",
+                    "naval_camouflage"]
+            }
+        ],
+        "story": ["fofiejfiejfijefj jeifj ijfihghughuhegeuijfij ihjejfuewgheugh"]
+    }
+]

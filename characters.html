@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Characters</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/modal.css">
+
+    <link rel="shortcut icon" href="./img/other/facicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <div class="tooltip" role="tooltip">
+        <h5>header</h5>
+        <hr>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, veritatis.
+        <hr>
+        footer
+    </div>
+    <!--   HEADER    -->
+    <header class="header">
+        <div class="header__container">
+        <a href="./">
+            <img src="./img/other/logo.png" alt="Azure Lane" class="header__logo">
+        </a>
+    
+            <nav class="desk__nav">
+                <div class="nav__links">
+                    <a href="./index.html" class="nav__link">Главная</a>
+                    <a href="./news.html" class="nav__link">Новости</a>
+                    <a href="./guides.html" class="nav__link">Гайды</a>
+                    <a href="./lore.html" class="nav__link">Лор</a>
+                    <a href="./characters.html" class="nav__link">Персонажи</a>
+                    <a href="./items.html" class="nav__link">Шмот</a>
+                    <a href="./information.html" class="nav__link">Инфа</a>
+                </div>
+    
+            </nav>
+            <div class="soc__links">
+                <a href="" class="soc__link"><img src="" alt="" class="soc__link-img"></a>
+                <a href="" class="soc__link"><img src="" alt="" class="soc__link-img"></a>
+                <a href="" class="soc__link"><img src="" alt="" class="soc__link-img"></a>
+            </div>
+            <div class="burger__menu-btn">
+                <img src="./img/other/menu_open.png" alt="" class="burger__menu-img">
+            </div>
+        </div>
+    </header>
+
+
+    <!--    MODAL MENU      -->
+    <div class="menu__overlay hide" data-close="true">
+        <nav class="nav__modal">
+
+            <div class="modal__nav__cell">
+                <a href="./index.html" class="nav__link">Главная</a>
+            </div>
+            <div class="modal__nav__cell">
+                <a href="./news.html" class="nav__link">Новости</a>
+            </div>
+            <div class="modal__nav__cell">
+                <a href="./guides.html" class="nav__link">Гайды</a>
+            </div>
+            <div class="modal__nav__cell">
+                <a href="./lore.html" class="nav__link">Лор</a>
+            </div>
+            <div class="modal__nav__cell">
+                <a href="./characters.html" class="nav__link">Персонажи</a>
+            </div>
+            <div class="modal__nav__cell">
+                <a href="./items.html" class="nav__link">Шмот</a>
+            </div>
+            <div class="modal__nav__cell">
+                <a href="./information.html" class="nav__link">Инфа</a>
+            </div>
+            
+        </nav>
+    </div>
+
+<main>
+
+<div class="global__wrapper">
+    <div class="alt__header">
+        <h2 class="alt__headers">персонажи</h2>
+    </div>
+</div>
+
+<div class="filters__block">
+    <div class="filters__wrapper">
+        <span class="filters__header">Sort</span>
+        <select name="sort" id="sort">
+            <option disabled>Sort</option>
+            <option selected value="rarity" >Rarity</option>
+            <option value="lvl">Lv.</option>
+            <option value="stats">Total Stats</option>
+            <option value="construction">Time</option>
+            <option value="hp">HP</option>
+            <option value="fp">FP</option>
+            <option value="trp">TRP</option>
+            <option value="avi">AVI</option>
+            <option value="aa">AA</option>
+            <option value="asw">ASW</option>
+        </select>
+    </div>
+
+    <div class="filters__wrapper">
+        <span class="filters__header">Index</span>
+        <select name="index" id="index">
+            <option disabled>Index</option>
+            <option selected value="All">All</option>
+            <option value="Vanguard">Vanguard</option>
+            <option value="Main">Main</option>
+            <option value="DD">DD</option>
+            <option value="CL">CL</option>
+            <option value="CA">CA</option>
+            <option value="BB">BB</option>
+            <option value="CV">CV</option>
+            <option value="Repair">Repair</option>
+            <option value="SS">SS</option>
+            <option value="Other">Other</option>
+        </select>
+    </div>
+
+    <div class="filters__wrapper">
+        <span class="filters__header">Faction</span>
+        <select name="faction" id="faction">
+            <option disabled> Faction</option>
+            <option selected value="All">All</option>
+            <option value="Eagle Union">Eagle Union</option>
+            <option value="Royal Navy">Royal Navy</option>
+            <option value="Sakura Empire">Sakura Empire</option>
+            <option value="Iron Blood">Iron Blood</option>
+            <option value="Dragon Empery">Dragon Empery</option>
+            <option value="Nothern Parliament">Nothern Parliament</option>
+            <option value="Iris Lible">Iris Lible</option>
+            <option value="Vichya Dominion">Vichya Dominion</option>
+            <option value="Other">Other</option>
+        </select>
+    </div>
+
+    <div class="filters__wrapper">
+        <span class="filters__header">Rarity</span>
+        <select name="rarity" id="rarity">
+            <option disabled>Rarity</option>
+            <option selected value="All">All</option>
+            <option value="3">Common</option>
+            <option value="4">Rare</option>
+            <option value="5">Elite</option>
+            <option value="6">Super Rare</option>
+            <option value="6">Ultra Rare</option>
+        </select>
+    </div>
+</div>
+
+
+<div class="fetched__list__block" data-listType="characters">
+
+
+</div>
+
+
+
+</main>
+
+
+    <!--   FOOTER   -->
+<footer class="footer">
+    <div class="container">
+        <h2 class="headers">ПОМОЩЬ АВТОРУ</h2>
+        <div class="text__block">
+            Если вам понравился сайт и информация на сайте оказалась интересной и полезной, вы можете задонатить монетку автору :3
+        </div>
+
+        <a href="" class="usual__btn">
+            <span class="usual__btn-text">Донатная кнопка</span>
+        </a>
+
+    </div>
+</footer>
+</div>
+
+
+
+</body>
+
+
+<div class="info__modal__overlay" data-close="true">
+    <div class="info__modal">
+        <div class="info__modal__wrapper">
+            <div class="info__modal__header">
+                <img src="./img/characters/demo.jpg" alt="" class="info__modal__header-img">
+                <h2 class="info__modal__headers">Девка с волосами</h2>
+                <img class="red__cross" src="./img/other/red_cross.png" data-close="true" alt="Закрыть">
+            </div>
+
+            <div class="info__modal__equipment__block">
+
+                <div class="info__modal__equipment__col">
+                    <h4 class="eq__header">DD Guns</h4>
+                    <hr>
+                    <div class="info__modal__equipment__head">120% shit</div>
+                    <img src="./img/items/demo.png" alt="" class="info__modal__equipment-cell">
+                    <img src="./img/items/demo.png" alt="" class="info__modal__equipment-cell">
+                    <img src="./img/items/demo.png" alt="" class="info__modal__equipment-cell">
+                    <img src="./img/items/demo.png" alt="" class="info__modal__equipment-cell">
+                    <img src="./img/items/demo.png" alt="" class="info__modal__equipment-cell">
+                </div>
+                <div class="info__modal__equipment__col">
+                    <h4 class="eq__header">BB Guns</h4>
+                    <hr>
+                    <div class="info__modal__equipment__head">120% shit</div>
+                    <img src="./img/items/demo.png" alt="" class="info__modal__equipment-cell">
+                    <img src="./img/items/demo.png" alt="" class="info__modal__equipment-cell">
+                    <img src="./img/items/demo.png" alt="" class="info__modal__equipment-cell">
+                    <img src="./img/items/demo.png" alt="" class="info__modal__equipment-cell">
+                    <img src="./img/items/demo.png" alt="" class="info__modal__equipment-cell">
+                </div>
+                <div class="info__modal__equipment__col">
+                    <div class="info__modal__equipment__head">120% shit</div>
+                    <img src="./img/items/demo.png" alt="" class="info__modal__equipment-cell">
+                    <img src="./img/items/demo.png" alt="" class="info__modal__equipment-cell">
+                    <img src="./img/items/demo.png" alt="" class="info__modal__equipment-cell">
+                    <img src="./img/items/demo.png" alt="" class="info__modal__equipment-cell">
+                    <img src="./img/items/demo.png" alt="" class="info__modal__equipment-cell">
+                </div>
+                <div class="info__modal__equipment__col">
+                    <div class="info__modal__equipment__head">120% shit</div>
+                    <img src="./img/items/demo.png" alt="" class="info__modal__equipment-cell">
+                    <img src="./img/items/demo.png" alt="" class="info__modal__equipment-cell">
+                    <img src="./img/items/demo.png" alt="" class="info__modal__equipment-cell">
+                    <img src="./img/items/demo.png" alt="" class="info__modal__equipment-cell">
+                    <img src="./img/items/demo.png" alt="" class="info__modal__equipment-cell">
+                </div>
+                <div class="info__modal__equipment__col">
+                    <div class="info__modal__equipment__head">120% shit</div>
+                    <img src="./img/items/demo.png" alt="" class="info__modal__equipment-cell">
+                    <img src="./img/items/demo.png" alt="" class="info__modal__equipment-cell">
+                    <img src="./img/items/demo.png" alt="" class="info__modal__equipment-cell">
+                    <img src="./img/items/demo.png" alt="" class="info__modal__equipment-cell">
+                    <img src="./img/items/demo.png" alt="" class="info__modal__equipment-cell">
+                </div>
+
+            </div>
+
+            <h2 class="headers">Скилы</h2>
+
+            <div class="skills">
+                <div class="skill">
+                    <div class="skill__head">
+                        <img src="./img/skills/dragons_breath.png" alt="" class="skill-img">
+                        <div class="skill__text">
+                            <p class="skill__index">First</p>
+                            <p class="skill__title">Dragon's Breath</p>
+                            <div class="skill__buff">Main gun base +1/Main gun efficiency +5%</div>
+                        </div>
+                    </div>
+                    <div class="skill__description">
+                        When this ship fires its main guns, 50% (100%) chance to fire a special barrage with guaranteed critical hits (barrage damage scales with skill level). Additionally, 10s into the start of the battle, fire this same barrage. The barrage pattern is independent of this ship's position in the main fleet. The barrage inflicts Armor Break to enemies it hits. (Armor-Broken enemies take 5% more damage for 8.0s. This Armor Break stacks with other sources of Armor Break.)
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill__head">
+                        <img src="./img/skills/dragons_breath.png" alt="" class="skill-img">
+                        <div class="skill__text">
+                            <p class="skill__index">First</p>
+                            <p class="skill__title">Dragon's Breath</p>
+                            <div class="skill__buff">Main gun base +1/Main gun efficiency +5%</div>
+                        </div>
+                    </div>
+                    <div class="skill__description">
+                        When this ship fires its main guns, 50% (100%) chance to fire a special barrage with guaranteed critical hits (barrage damage scales with skill level). Additionally, 10s into the start of the battle, fire this same barrage. The barrage pattern is independent of this ship's position in the main fleet. The barrage inflicts Armor Break to enemies it hits. (Armor-Broken enemies take 5% more damage for 8.0s. This Armor Break stacks with other sources of Armor Break.)
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+</div>
+<script src="./scripts/script.js"></script>
+<script src="./scripts/characters.js"></script>
+<script src="./scripts/modalfix.js"></script>
+</html>

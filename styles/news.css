@@ -1,0 +1,127 @@
+.news__table {
+    width: 320px;
+    margin: auto;
+    margin-top: 20px;
+}
+.news {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+
+    width: 100%;
+    height: 60px;
+    color: rgb(236, 236, 236);
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+
+.news__date {
+    padding-top: 5px;
+    width: 50px;
+    height: 100%;
+    text-align: center;
+    background: #18234D;
+}
+.news__content__wrapper {
+    padding-left: 4px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(90deg, #252525 0%, #363636 46.35%, rgba(0, 0, 0, 0) 77.84%);
+}
+.news__content {
+    position: relative;
+    width: 100%;
+    background-color: #18234D;
+    background-image: url("../img/news/BoiseHalloweenBanner.png");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 110px;
+    z-index: 5;
+}
+.news__overlay  {
+    position: absolute;
+    z-index: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    top: 100px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(40, 0, 85, 0.651);
+}
+.news__btn {
+    padding: 10px;
+    background-color: rgb(35, 78, 158);
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 3px;
+}
+.news__title {
+    font-size: 16px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.news__message {
+    font-size: 11px;
+    width: 70%;
+}
+.news__label {
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+    z-index: 100;
+
+    text-shadow: 0px 4px 4px rgb(0, 0, 0);
+    padding-top: 1px;
+    text-align: center;
+    background-color: #4D95BE;
+    font-size: 10px;
+    height: 14px;
+    border-radius: 3px 0 0 3px;
+    width: 50px;
+
+}
+
+@media screen and (min-width: 700px) {
+    .news__table {
+        width: 550px;
+    }
+    .news {
+        height: 80px;
+        margin-bottom: 3px;
+        border-radius: 5px;
+    }
+    .news__date {
+        padding-top: 5px;
+        width: 50px;
+    }
+    .news__content__wrapper {
+        padding-left: 4px;
+        height: 80px;
+    }
+    .news__content {    
+        background-position-x: 110px;
+    }
+    .news__title {
+        font-size: 18px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+    .news__message {
+        font-size: 14px;
+        width: 70%;
+    }
+    .news__label {
+        bottom: 10px;
+        right: 0px;
+    
+        padding-top: 1px;
+        background-color: #4D95BE;
+        font-size: 16px;
+        height: 18px;
+        border-radius: 3px 0 0 3px;
+        width: 70px;
+    
+    }
+}

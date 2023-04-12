@@ -1,0 +1,429 @@
+{
+    "BB_Guns": {
+        "triple_406mm_16_50_mk_7": {
+            "name": "Triple 406mm (16\"/50 Mk 7)",
+            "src": "triple_406mm_16_50_mk_7",
+            "link": "https://azurlane.koumakan.jp/Triple_406mm_(16\"/50_Mk_7)",
+            "rarity": 6,
+            "type": "BB",
+            "description": "Best HE gun for shelling damage.",
+            "footer": "Mirror Involution event shop"
+        },
+        "twin_457mm_mark_a_prototype": {
+            "name": "Twin 457mm (Mark A Prototype)",
+            "src": "twin_457mm_mark_a_prototype",
+            "link": "https://azurlane.koumakan.jp/Twin_457mm_(Mark_A_Prototype)",
+            "rarity": 6,
+            "type": "BB",
+            "description": "AP gun with the highest shelling damage and decently low reload time. Only use against Medium or Heavy armor bosses when there is another Main Fleet ship with a HE main gun. Extremely hard to obta",
+            "footer": "Acquired through research (series 2) or the Prototype Shop (limited to 50 blueprints total)."
+        },
+        "twin_406mm_sk_c_34_prototype": {
+            "name": "Twin 406mm (SK C/34 Prototype)",
+            "src": "twin_406mm_sk_c_34_prototype",
+            "link": "https://azurlane.koumakan.jp/Twin_406mm_(SK_C/34_Prototype)",
+            "rarity": 5,
+            "type": "BB",
+            "description": "Best gun for ships with skills that proc on firing. This tends to be better than the Triple 406mm Mk 6 against mobs due to a higher damage uptime.",
+            "footer": "Acquired through research only (series 2)."
+        },
+        "triple_406mm_16_45_mk_6": {
+            "name": "Triple 406mm (16\"/45 Mk 6)",
+            "src": "triple_406mm_16_45_mk_6",
+            "link": "https://azurlane.koumakan.jp/Triple_406mm_(16\"/45_Mk_6)#Type_3",
+            "rarity": 4,
+            "type": "BB",
+            "description": "Great HE gun for shelling damage.",
+            "footer": "6-2, 6-3, T3/T4 Eagle Tech Box"
+        },
+        "triple_305mm_sk_c_39_prototype": {
+            "name": "Triple 305mm (SK C/39 Prototype)",
+            "src": "triple_305mm_sk_c_39_prototype",
+            "link": "https://azurlane.koumakan.jp/Triple_305mm_(SK_C/39_Prototype)#BB_Variant",
+            "rarity": 5,
+            "type": "BB",
+            "description": "Alternative to the Twin 406mm SKC with slighy lower reload time. This is a mobbing-focused gun due to having weak fires and higher Spread, but high damage uptime.",
+            "footer": "Acquired through research only (series 3)."
+        },
+        "triple_406mm_mle_1938_prototype": {
+            "name": "Triple 406mm (Mle 1938 Prototype)",
+            "src": "triple_406mm_mle_1938_prototype",
+            "link": "https://azurlane.koumakan.jp/Triple_406mm_(Mle_1938_Prototype)",
+            "rarity": 5,
+            "type": "BB",
+            "description": "Great AP gun for shelling damage. Only use against Medium or Heavy armor bosses when there is another Main Fleet ship with a HE main gun.",
+            "footer": "Acquired through research only (series 3)."
+        },
+        "triple_410mm_10th_year_type_prototype": {
+            "name": "Triple 410mm (10th Year Type Prototype)",
+            "src": "triple_410mm_10th_year_type_prototype",
+            "link": "https://azurlane.koumakan.jp/Triple_410mm_(10th_Year_Type_Prototype)",
+            "rarity": 5,
+            "type": "BB",
+            "description": "Good AP gun for shelling damage. Only use against Medium or Heavy armor bosses when there is another Main Fleet ship with a HE main gun.",
+            "footer": "Acquired through research only (series 1)."
+        }
+    },
+
+    "DD_Guns": {
+        "twin_128mm_45_sk_c_41": {
+            "name": "Twin 128mm/45 SK C/41",
+            "src": "twin_128mm_45_sk_c_41",
+            "link": "https://azurlane.koumakan.jp/Twin_128mm/45_SK_C/41",
+            "rarity": 5,
+            "type": "DD",
+            "description": "Best auxiliary DD gun. Provides good FP stat and the best protection against Suicide Boats.",
+            "footer": "Gear Lab"
+        },
+        "twin_127mm_5_38_mk_32": {
+            "name": "Twin 127mm (5\"/38 Mk 32)",
+            "src": "twin_127mm_5_38_mk_32",
+            "link": "https://azurlane.koumakan.jp/Twin_127mm_(5\"/38_Mk_32)",
+            "rarity": 4,
+            "type": "DD",
+            "description": "Great general-use auxiliary DD gun. Provides decent FP stat and great protection against Suicide Boats.",
+            "footer": "Gear Lab"
+        },
+        "twin_120mm_qf_mark_xii": {
+            "name": "Twin 120mm (QF Mark XII)",
+            "src": "twin_120mm_qf_mark_xii",
+            "link": "https://azurlane.koumakan.jp/Twin_120mm_(QF_Mark_XII)#Type_3",
+            "rarity": 4,
+            "type": "DD",
+            "description": "Good general-use auxiliary DD gun. Provides decent FP stat and good protection against Suicide Boats.",
+            "footer": "4-2, 8-1, T3/T4 Royal Tech Box"
+        },
+        "twin_128mm_sk_c_41": {
+            "name": "Twin 128mm (SK C/41)",
+            "src": "twin_128mm_sk_c_41",
+            "link": "https://azurlane.koumakan.jp/Twin_128mm_(SK_C/41)#Type_3",
+            "rarity": 4,
+            "type": "DD",
+            "description": "Great auxiliary DD gun for protection against Suicide Boats but has low damage. Can fail to kill Suicide Boats unless used on ships with high FP stat and auxiliary gun Efficiency.",
+            "footer": "T3/T4 Ironblood Tech Box-"
+        },
+        "single_76mm_3_50_caliber_gun": {
+            "name": "Single 76mm (3\"/50 caliber gun)",
+            "src": "single_76mm_3_50_caliber_gun",
+            "link": "",
+            "rarity": 3,
+            "type": "DD",
+            "description": "",
+            "footer": ""
+        },
+        "single_120mm_qf_mark_ix": {
+            "name": "Single 120mm (QF Mark IX)",
+            "src": "single_120mm_qf_mark_ix",
+            "link": "",
+            "rarity": 3,
+            "type": "DD",
+            "description": "",
+            "footer": ""
+        },
+        "twin_114mm_qf_mk_iv": {
+            "name": "Twin 114mm (QF Mk IV)",
+            "src": "twin_114mm_qf_mk_iv",
+            "link": "",
+            "rarity": 5,
+            "type": "DD",
+            "description": "",
+            "footer": ""
+        },
+        "twin_100mm_type_98": {
+            "name": "Twin 100mm (Type 98)",
+            "src": "twin_100mm_type_98",
+            "link": "",
+            "rarity": 5,
+            "type": "DD",
+            "description": "",
+            "footer": ""
+        }
+    },
+    "AA_Guns": {
+        "twin_40mm_bofors_staag": {
+            "name": "Twin 40mm Bofors STAAG",
+            "src": "twin_40mm_bofors_staag",
+            "link": "https://azurlane.koumakan.jp/Twin_40mm_Bofors_STAAG",
+            "rarity": 5,
+            "type": "AA",
+            "description": "Best AA gun for all Main Fleet ships. Provides 10 Accuracy stat and acts as an accelerator AA gun. BBs, BCs, and BBVs have priority for this.",
+            "footer": "Acquired through research only (Series 1/4)"
+        },
+        "twin_40mm_bofors_hazemeyer": {
+            "name": "Twin 40mm Bofors Hazemeyer",
+            "src": "twin_40mm_bofors_hazemeyer",
+            "link": "https://azurlane.koumakan.jp/Twin_40mm_Bofors_Hazemeyer",
+            "rarity": 5,
+            "type": "AA",
+            "description": "Good AA gun for all Main Fleet ships. Provides 5 Accuracy stat and acts as a slightly worse accelerator AA gun. BBs, BCs, and BBVs have priority for this.",
+            "footer": "Drop from Air Raid Drills with Essex, Research (series 2/3)"
+        },
+        "quadruple_40mm_bofors_mk_2_mount": {
+            "name": "Quadruple 40mm Bofors (Mk 2 Mount)",
+            "src": "quadruple_40mm_bofors_mk_2_mount",
+            "link": "https://azurlane.koumakan.jp/Quadruple_40mm_Bofors_(Mk_2_Mount)#Type_3",
+            "rarity": 5,
+            "type": "AA",
+            "description": "Good general-use AA gun with high DPS. Purple version of this can be used as transitional equipment.",
+            "footer": "5-4, 11-3, T4/T5 Eagle Tech box. Blueprints can also be obtained through Research."
+        },
+        "triple_25mm_aa_type_96_blast_shield": {
+            "name": "Triple 25mm AA (Type 96 Blast Shield)",
+            "src": "triple_25mm_aa_type_96_blast_shield",
+            "link": "https://azurlane.koumakan.jp/Triple_25mm_AA_(Type_96_Blast_Shield)",
+            "rarity": 5,
+            "type": "AA",
+            "description": "",
+            "footer": ""
+        },
+        "twin_40mm_bofors_type_5": {
+            "name": "Twin 40mm Bofors (Type 5)",
+            "src": "twin_40mm_bofors_type_5",
+            "link": "https://azurlane.koumakan.jp/Twin_40mm_Bofors_(Type_5)",
+            "rarity": 5,
+            "type": "AA",
+            "description": "",
+            "footer": ""
+        },
+        "twin_37mm_acad_mle_1936": {
+            "name": "Twin 37mm ACAD (Mle 1936)",
+            "src": "twin_37mm_acad_mle_1936",
+            "link": "https://azurlane.koumakan.jp/Twin_37mm_ACAD_(Mle_1936)",
+            "rarity": 5,
+            "type": "AA",
+            "description": "",
+            "footer": ""
+        },
+        "twin_134mm_aa_qf_mark_i": {
+            "name": "Twin 134mm AA (QF Mark I)",
+            "src": "twin_134mm_aa_qf_mark_i",
+            "link": "https://azurlane.koumakan.jp/Twin_134mm_AA_(QF_Mark_I)",
+            "rarity": 5,
+            "type": "AA",
+            "description": "",
+            "footer": ""
+        },
+        "sextuple_40mm_bofors": {
+            "name": "Sextuple 40mm Bofors",
+            "src": "sextuple_40mm_bofors",
+            "link": "https://azurlane.koumakan.jp/Sextuple_40mm_Bofors",
+            "rarity": 5,
+            "type": "AA",
+            "description": "",
+            "footer": ""
+        },
+        "twin_90mm_aa_model_1939_prototype": {
+            "name": "Twin 90mm AA (Model 1939 Prototype)",
+            "src": "twin_90mm_aa_model_1939_prototype",
+            "link": "https://azurlane.koumakan.jp/Twin_90mm_AA_(Model_1939_Prototype)",
+            "rarity": 5,
+            "type": "AA",
+            "description": "",
+            "footer": ""
+        }
+    },
+    "Auxiliary": {
+        "type_1_armor_piercing_shell": {
+            "name": "Type 1 Armor Piercing Shell",
+            "src": "type_1_armor_piercing_shell",
+            "link": "https://azurlane.koumakan.jp/Type_1_Armor_Piercing_Shell",
+            "rarity": 5,
+            "type": "Auxiliary",
+            "description": "Great general-use auxiliary. The passive does not stack with itself nor with the passive of the Type 91 AP Shell.",
+            "footer": "Core Data Exchange"
+        },
+        "type_91_armor_piercing_shell": {
+            "name": "Type 91 Armor Piercing Shell",
+            "src": "type_91_armor_piercing_shell",
+            "link": "https://azurlane.koumakan.jp/Type_91_Armor_Piercing_Shell",
+            "rarity": 4,
+            "type": "Auxiliary",
+            "description": "Transitional general-use auxiliary. The passive does not stack with itself nor with the passive of the Type 1 AP Shell.",
+            "footer": "T3/T4 Sakura Tech Box"
+        },
+        "sg_radar": {
+            "name": "SG Radar",
+            "src": "sg_radar",
+            "link": "https://azurlane.koumakan.jp/SG_Radar#Type_3",
+            "rarity": 5,
+            "type": "Auxiliary",
+            "description": "Can be used as a transitional Accuracy-boosting auxiliary. Also, one can be used on a ship in the mob fleet if ambushes are problematic.",
+            "footer": "6-1, 10-2, T4/T5 Eagle Tech box. Blueprints can also be obtained through Research."
+        },
+        "super_heavy_shell": {
+            "name": "Super Heavy Shell",
+            "src": "super_heavy_shell",
+            "link": "https://azurlane.koumakan.jp/Super_Heavy_Shell",
+            "rarity": 5,
+            "type": "Auxiliary",
+            "description": "",
+            "footer": ""
+        },
+        "high_performance_fire_control_radar": {
+            "name": "High Performance Fire Control Radar",
+            "src": "high_performance_fire_control_radar",
+            "link": "https://azurlane.koumakan.jp/High_Performance_Fire_Control_Radar",
+            "rarity": 5,
+            "type": "Auxiliary",
+            "description": "",
+            "footer": ""
+        },
+        "nelsons_pennant_of_victory": {
+            "name": "Nelson's Pennant of Victory",
+            "src": "nelsons_pennant_of_victory",
+            "link": "https://azurlane.koumakan.jp/Nelson's_Pennant_of_Victory",
+            "rarity": 5,
+            "type": "Auxiliary",
+            "description": "",
+            "footer": ""
+        },
+        "fire_control_radar": {
+            "name": "Fire Control Radar",
+            "src": "fire_control_radar",
+            "link": "https://azurlane.koumakan.jp/Fire_Control_Radar#Type_3",
+            "rarity": 4,
+            "type": "Auxiliary",
+            "description": "",
+            "footer": ""
+        },
+        "fire_extinguisher": {
+            "name": "Fire Extinguisher",
+            "src": "fire_extinguisher",
+            "link": "https://azurlane.koumakan.jp/Fire_Extinguisher#Type_3",
+            "rarity": 3,
+            "type": "Auxiliary",
+            "description": "",
+            "footer": ""
+        },
+        "repair_toolkit": {
+            "name": "Repair Toolkit",
+            "src": "repair_toolkit",
+            "link": "https://azurlane.koumakan.jp/Repair_Toolkit#Type_3",
+            "rarity": 4,
+            "type": "Auxiliary",
+            "description": "",
+            "footer": ""
+        },
+        "improved_hydraulic_rudder": {
+            "name": "Improved Hydraulic Rudder",
+            "src": "improved_hydraulic_rudder",
+            "link": "https://azurlane.koumakan.jp/Improved_Hydraulic_Rudder",
+            "rarity": 5,
+            "type": "Auxiliary",
+            "description": "",
+            "footer": ""
+        },
+        "hydraulic_steering_gear": {
+            "name": "Hydraulic Steering Gear",
+            "src": "hydraulic_steering_gear",
+            "link": "https://azurlane.koumakan.jp/Hydraulic_Steering_Gear#Type_3",
+            "rarity": 3,
+            "type": "Auxiliary",
+            "description": "",
+            "footer": ""
+        },
+        "naval_camouflage": {
+            "name": "Naval Camouflage",
+            "src": "naval_camouflage",
+            "link": "https://azurlane.koumakan.jp/Naval_Camouflage#Type_3",
+            "rarity": 3,
+            "type": "Auxiliary",
+            "description": "",
+            "footer": ""
+        }
+    },
+    "Torpedoes": {
+        "533mm_quintuple_homing_torpedo_mount": {
+            "name": "533mm Quintuple Homing Torpedo Mount",
+            "src": "533mm_quintuple_homing_torpedo_mount",
+            "link": "https://azurlane.koumakan.jp/533mm_Quintuple_Homing_Torpedo_Mount#Type_3",
+            "rarity": 6,
+            "type": "Torpedo",
+            "description": "",
+            "footer": ""
+        },
+        "533mm_quadruple_homing_torpedo_mount": {
+            "name": "533mm Quadruple Homing Torpedo Mount",
+            "src": "533mm_quadruple_homing_torpedo_mount",
+            "link": "https://azurlane.koumakan.jp/533mm_Quadruple_Homing_Torpedo_Mount#Type_3",
+            "rarity": 5,
+            "type": "Torpedo",
+            "description": "",
+            "footer": ""
+        },
+        "610mm_quintuple_torpedo_mount": {
+            "name": "610mm Quintuple Torpedo Mount",
+            "src": "610mm_quintuple_torpedo_mount",
+            "link": "https://azurlane.koumakan.jp/610mm_Quintuple_Torpedo_Mount",
+            "rarity": 6,
+            "type": "Torpedo",
+            "description": "",
+            "footer": ""
+        },
+        "533mm_quintuple_torpedo_mount": {
+            "name": "533mm Quintuple Torpedo Mount",
+            "src": "533mm_quintuple_torpedo_mount",
+            "link": "https://azurlane.koumakan.jp/533mm_Quintuple_Torpedo_Mount#Type_3",
+            "rarity": 5,
+            "type": "Torpedo",
+            "description": "",
+            "footer": ""
+        },
+        "533mm_quintuple_torpedo_mount_mk_ix": {
+            "name": "533mm Quintuple Torpedo Mount Mk IX",
+            "src": "533mm_quintuple_torpedo_mount_mk_ix",
+            "link": "https://azurlane.koumakan.jp/533mm_Quintuple_Torpedo_Mount_Mk_IX",
+            "rarity": 5,
+            "type": "Torpedo",
+            "description": "",
+            "footer": ""
+        },
+        "610mm_quadruple_torpedo_mount": {
+            "name": "610mm Quadruple Torpedo Mount",
+            "src": "610mm_quadruple_torpedo_mount",
+            "link": "https://azurlane.koumakan.jp/610mm_Quadruple_Torpedo_Mount#Type_3",
+            "rarity": 5,
+            "type": "Torpedo",
+            "description": "",
+            "footer": ""
+        },
+        "533mm_quadruple_torpedo_mount": {
+            "name": "533mm Quadruple Torpedo Mount",
+            "src": "533mm_quadruple_torpedo_mount",
+            "link": "https://azurlane.koumakan.jp/533mm_Quadruple_Torpedo_Mount#Type_3",
+            "rarity": 4,
+            "type": "Torpedo",
+            "description": "",
+            "footer": ""
+        }
+    },
+    "CL_Guns": {
+        "triple_152mm_bl_6_mk_xvv_prototype": {
+            "name": "Triple 152mm (BL 6\" Mk XXV Prototype)",
+            "src": "triple_152mm_bl_6_mk_xvv_prototype",
+            "link": "https://azurlane.koumakan.jp/Triple_152mm_(BL_6\"_Mk_XXV_Prototype)",
+            "rarity": 5,
+            "type": "CL",
+            "description": "",
+            "footer": ""
+        },
+        "single_150mm_sk_c_28": {
+            "name": "Single 150mm (SK C/28)",
+            "src": "single_150mm_sk_c_28",
+            "link": "https://azurlane.koumakan.jp/Single_150mm_(SK_C/28)#Type_3",
+            "rarity": 4,
+            "type": "CL",
+            "description": "",
+            "footer": ""
+        },
+        "twin_150mm_tbtsk_c_36": {
+            "name": "Twin 150mm (TbtsK C/36)",
+            "src": "twin_150mm_tbtsk_c_36",
+            "link": "https://azurlane.koumakan.jp/Twin_150mm_(TbtsK_C/36)#Type_3",
+            "rarity": 4,
+            "type": "CL",
+            "description": "",
+            "footer": ""
+        }
+    }
+}

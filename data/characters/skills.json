@@ -1,0 +1,20 @@
+{
+    "dragons_breath":{
+                "title": "Dragon's Breath",
+                "buff": "Main gun base +1/Main gun efficiency +5%",
+                "skill": "When this ship fires its main guns, 50% (100%) chance to fire a special barrage with guaranteed critical hits (barrage damage scales with skill level). Additionally, 10s into the start of the battle, fire this same barrage. The barrage pattern is independent of this ship's position in the main fleet. The barrage inflicts Armor Break to enemies it hits. (Armor-Broken enemies take 5% more damage for 8.0s. This Armor Break stacks with other sources of Armor Break.)",
+                "src": "dragons_breath"
+    },
+    "freedom_through_firepower":{
+                "title": "Freedom Through Firepower",
+                "buff": "Auxiliary gun base +2/Main gun efficiency +10%",
+                "skill": "Decrease the spread range of this ship's main guns by 0.5 (5). Whenever ANOTHER fleet in the same sortie engages in battle, if this ship is afloat, fire a special barrage 20s into the start of that battle (damage scales with skill level). At the start of that battle, if that fleet's flagship is an Eagle Union ship, increase the AVI stat of all Eagle Union CVs and CVLs in that fleet by 5% (15%).",
+                "src": "freedom_through_firepower"
+    },
+    "dontcha_just_love_it":{
+                "title": "Don'tcha Just Love It?",
+                "buff": "Main gun base +1/Main gun efficiency +5%",
+                "skill": "Increases this ship's FP by 5% (15%) and RLD by 1% (10%). If this ship is sortied with another Eagle Union ship, increase the AA stat by 5% (15%) for all Eagle Union ships in your fleet, decrease their damage taken by 5%, and increase the FP stat by 4% (10%) for all Eagle Union BBs and BCs in your fleet.",
+                "src": "dontcha_just_love_it"
+    }
+}
